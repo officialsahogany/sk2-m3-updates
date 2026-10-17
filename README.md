@@ -10,17 +10,19 @@ Windows용 게임 런처입니다. 게임 설치, 업데이트, 실행, 버그 �
 
 ## 기존 이용자: 새 런처를 다시 받지 않아도 됩니다
 
-**기존 런처를 실행하고 [업데이트 확인] → [업데이트]를 누르면 최신 게임을 받을 수 있습니다.** 런처 1.2 이상은 종료 후 다시 실행할 때 런처 자체의 최신 버전도 확인합니다. 현재 런처는 1.17입니다.
+**기존 런처를 실행하고 [업데이트 확인] → [업데이트]를 누르면 최신 게임을 받을 수 있습니다.** 런처 1.2 이상은 종료 후 다시 실행할 때 런처 자체의 최신 버전도 확인합니다. 현재 런처는 1.18입니다.
 
 런처 1.0/1.1 이용자는 **기존 런처 실행 → 업데이트 확인 → 업데이트 → 게임 시작**을 한 번 누르세요.
 
 런처 1.0/1.1은 같은 위치의 최신 런처로 전환되고 게임이 실행됩니다. 이후에는 런처를 실행할 때 런처 자체 업데이트도 확인합니다. 서명과 파일 해시 검증에 성공한 새 버전만 적용하며, 교체 실패 시 이전 파일을 복구합니다.
 
-이 게임 패키지는 **`20261017-portable-v12`**, 런처는 **1.17**입니다. 2026-10-17 15:23 KST 메인 완성본입니다. 축소 화면 도움말 충돌과 어택땅 접근 판정을 고치고, 호위 명령·바픈가르트 노동자 7명·외교 성향과 지휘관 화면·개마무사 동작과 효과음·투기장 우승 연출을 적용했습니다. [전체 변경 안내](https://github.com/officialsahogany/sk2-m3-updates/releases/tag/20261017-game-v12)는 런처 업데이트란에서도 한국어와 영어로 볼 수 있습니다.
+이 게임 패키지는 **`20261018-portable-v13`**, 런처는 **1.18**입니다. 2026-10-18 04:00 KST 메인 통합본입니다. 온라인 명예의 전당, 마을로 덮어 차지하는 땅 보너스, 매머드 왕과 상아 보상, 영웅 불화살 효과음을 포함합니다. [전체 변경 안내](https://github.com/officialsahogany/sk2-m3-updates/releases/tag/20261018-game-v13)는 런처에서 한국어와 영어로 볼 수 있습니다.
 
-v11에서의 다운로드는 약 **104MB(100MiB)**입니다. 설치 상태에 따라 필요한 파일 묶음이 달라질 수 있습니다. 온라인 명예의 전당은 아직 공개 전이며 이번 배포에는 포함되지 않았습니다.
+v12에서의 게임 다운로드는 약 **115MB(110MiB)**입니다. 런처 자동 업데이트 파일은 별도입니다. 설치 상태에 따라 필요한 묶음이 달라집니다.
 
-**English:** Game v12 is now available through your existing launcher. It includes the zoomed-map tooltip crash fix, attack-move corrections, Escort (G), seven-worker Incubators, diplomacy and commander UI improvements, and new animation/audio. Launcher 1.17 is retained. Download from v11 is about 104MB; the online leaderboard is not included yet. See the launcher's English update notes for the full changes.
+[커뮤니티 · 명예의 전당](https://sk2-m3-community.chummy-hill-8954.chatgpt.site)에서 인간·프라이탄 승리 순위와 최근 플레이 기록을 볼 수 있습니다. 런처의 **순위 참여**에서 닉네임을 정하고 동의해야 전송하며, 처음에는 꺼져 있습니다. 치트·시험 실행·이전 저장은 제외됩니다. 완전한 위변조 검증을 보장하는 공식 순위가 아닌 커뮤니티 기록입니다.
+
+**English:** Game v13 and launcher 1.18 are available through the existing launcher. This release adds opt-in community rankings, land bonuses claimed by covering them with towns, Mammoth King content and hero fire-arrow audio. Open **Leaderboard** to choose a nickname and enable participation. Wins rank separately for humans and Fryhtans; losses and retirements appear in recent games. Older saves and cheated/test games are excluded. The game update from v12 is about 115MB; launcher download is separate.
 
 ## 처음 설치하기
 
@@ -33,7 +35,7 @@ v11에서의 다운로드는 약 **104MB(100MiB)**입니다. 설치 상태에 �
 3. **Check for updates(업데이트 확인) → Install game(게임 설치)** 또는 **Update(업데이트)**를 누릅니다.
 4. 런처 하단에서 **한국어 / English**를 고르면 런처와 다음 게임 실행 언어가 함께 바뀝니다. 완료되면 **Play(게임 시작)**를 누릅니다. 게임 첫 화면의 언어 버튼도 사용할 수 있습니다.
 
-처음 설치는 약 **2.29GB(2.13GiB)**입니다. 필요한 파일 묶음만 받으며 `pack-*.zip`을 직접 받을 필요는 없습니다.
+처음 설치는 약 **2.30GB(2.14GiB)**입니다. 필요한 파일 묶음만 받으며 `pack-*.zip`을 직접 받을 필요는 없습니다.
 
 ## 튕김 / 버그 리포트
 
@@ -58,7 +60,7 @@ v11에서의 다운로드는 약 **104MB(100MiB)**입니다. 설치 상태에 �
 ## 세이브와 복구
 
 - 기존 세이브와 개인 설정을 보존합니다. 게임을 저장하고 종료한 뒤 업데이트하세요.
-- v12 저장 형식은 398이며 v11을 포함한 기존 정식 저장을 불러올 수 있습니다.
+- v13 저장 형식은 402이며 v12를 포함한 기존 정식 저장을 불러올 수 있습니다. 이전 저장은 다시 저장해도 순위에서 제외됩니다.
 - 새 버전에서 다시 저장한 파일은 구버전 실행 파일로 불러오는 것을 지원하지 않습니다. 이어 하기 전에 기존 저장 사본을 보관하는 것을 권합니다.
 - 적용 실패 시 이전 파일로 복구합니다. 갑작스러운 종료 후에는 **중단된 업데이트 복구**를 누르세요.
 - 인터넷 연결이 없어도 설치된 게임을 실행할 수 있습니다.
